@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/indigo/!svn/ver/2/trunk/js/tests/vendor
+END
+qunit.js
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/indigo/!svn/ver/2/trunk/js/tests/vendor/qunit.js
+END
+jquery.js
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/indigo/!svn/ver/2/trunk/js/tests/vendor/jquery.js
+END
+qunit.css
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/indigo/!svn/ver/2/trunk/js/tests/vendor/qunit.css
+END

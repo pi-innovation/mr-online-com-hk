@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width， initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!--<link rel="shortcut icon" href="../docs-assets/ico/favicon.ico">-->
+
+    <title>青少年機械人世界盃(RCJ)足球工作坊2014</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../dist/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]>
+    <script src="../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <!--scrolling js-->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="../docs-assets/js/jquery.localscroll-1.2.7-min.js" type="text/javascript"></script>
+    <script src="../docs-assets/js/jquery.scrollTo-1.4.3.1-min.js" type="text/javascript"></script>
+
+
+    <!-- Custom styles for this template -->
+    <link href="../carousel.css" rel="stylesheet">
+    <link href="../docs-assets/css/main.css" rel="stylesheet">
+
+</head>
+<!-- NAVBAR
+================================================== -->
+<body>
+
+<!--scrolling & active button js-->
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#nav').localScroll({duration: 400});
+
+        $('.nav li a').on('click', function () {
+            $(this).parent().parent().find('.active').removeClass('active');
+            $(this).parent().addClass('active');
+        });
+    });
+
+
+</script>
+
+<ul class="nav nav-pills nav-stacked left-menu">
+    <li class="active"><a href="#" class="grey-a">主頁</a></li>
+    <li><a href="#intro" class="grey-a">活動簡介</a></li>
+    <li><a href="#details" class="grey-a">活動詳情</a></li>
+    <li><a href="#content" class="grey-a">活動內容</a></li>
+    <li><a href="#kit" class="grey-a">入門套件</a></li>
+    <li><a href="#coorganize" class="grey-a">合辦機構</a></li>
+    <li><a href="../docs-assets/docs/rcj_workshop_application_form.pdf" class="grey-a">報名表下載</a></li>
+    <li><a href="https://www.dropbox.com/sh/px9zdrkggvp6b45/cAlYna4zE_" class="grey-a">資源下載</a></li>
+    <li><a href="#contact" class="grey-a">聯絡我們</a></li>
+</ul>
+
+
+<!-- Carousel
+================================================== -->
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="item active">
+
+            <img src="../docs-assets/images/rcj2014_banner.jpg" alt="足球機械人工作坊2014">
+
+            <div class="container">
+                <div class="carousel-caption">
+                    <img id="org-icon" src="../docs-assets/images/organizers.png" alt="足球機械人工作坊2014">
+                    <h1>青少年機械人世界盃(RCJ)</h1>
+                    <h1>足球機械人工作坊2014</h1>
+                    <p>MR Innovation·香港聯校電子及電腦學會·佐敦谷聖若瑟天主教小學</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /.carousel -->
+
+
+<!-- Marketing messaging and featurettes
+================================================== -->
+<!-- Wrap the rest of the page in another container to center all the content. -->
+
+<div class="container marketing">
+    <!-- START THE FEATURETTES -->
+
+    <div class="row featurette" id="intro">
+        <div class="col-md-2">
+        </div>
+
+        <div class="pl100 col-md-8">
+            <h2 class="featurette-heading">活動簡介 <span class="text-muted">Introduction</span></h2>
+
+            <p class="lead">MR Innovation 一直致力推廣機械人及科技教育，更已連續多年成為青少年機械人世界盃的協辦機構，
+                而本年度的青少年機械人世界盃香港選拔賽將於4月21日舉行，勝出的隊伍更有機會代表香港參加世界大賽<a target="_blank" href="http://www.rcj-hk.org">(詳情)</a>。
+                <br><br>有感RCJ 足球項目入門門檻非常高，一般的新手難以加入參加比賽，MR Innovation 將於2014年3月22日與「香港聯校電子及電腦學會」及「佐敦谷聖若瑟天主教小學」，
+                合辦青少年機械人世界盃(RCJ)足球工作坊2014，藉此培訓學生參加青少年機械人世界盃足球項目的技能。
+            </p>
+        </div>
+
+        <div class="col-md-2">
+
+        </div>
+
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette" id="details">
+        <div class="col-md-2">
+
+        </div>
+        <div class="pl100 col-md-8">
+            <h2 class="featurette-heading">工作坊詳情 <span class="text-muted">Details</span>
+            </h2>
+
+            <p class="lead">日期：2014年3月22日<br>
+                時間：上午9時至下午1時<br>
+                地點：佐敦谷聖若瑟天主教小學<a target="_blank" href="https://www.google.com/maps/place/%E4%BD%90%E6%95%A6%E8%B0%B7%E8%81%96%E8%8B%A5%E7%91%9F%E5%A4%A9%E4%B8%BB%E6%95%99%E5%B0%8F%E5%AD%B8%2F+Jordan+Valley+St.+Joseph's+Catholic+Primary/@22.328651,114.2141276,17z/data=!3m1!4b1!4m2!3m1!1s0x340406ca14292ec9:0x892415f1040a7abf">(地圖)</a><br>
+                <br>
+                是次活動費用全免，參加學校更可同時以優惠價訂購入門足球機械人套裝。
+            </p>
+        </div>
+        <div class="col-md-2">
+
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette" id="content">
+        <div class="col-md-2">
+
+        </div>
+        <div class="pl100 col-md-8">
+            <h2 class="featurette-heading">活動內容 <span class="text-muted">Content</span>
+            </h2>
+
+            <p class="lead">
+                1. RCJ 2014 足球賽規簡介 (由RCJ 2014 足球項目香港區主裁判講解）<br>
+                2. 不同品牌足球機械人簡介<br>
+                3. 入門足球機械人套件教學<br>
+                4. 測試及交流<br>
+            </p>
+        </div>
+        <div class="col-md-2">
+
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette mb50" id="kit">
+        <div class="col-md-2">
+
+        </div>
+        <div class="pl100 col-md-8">
+            <h2 class="featurette-heading">入門套件<br> <span class="text-muted">Soccer Robot Kit</span></h2>
+
+            <p class="lead">參加學校更可同時以優惠價(HKD2580)訂購入門足球機械人套裝。<br>
+                MR Innovation 入門足球機械人套件內容包括：<br><br>
+                -	微處理器連端口擴展板 X1<br>
+                -	馬達X4<br>
+                -	馬達驅動板X2<br>
+                -	萬向輪X4<br>
+                -	複眼傳感器X1<br>
+                -	指南針傳感器X1<br>
+                -	光傳感器 X4<br>
+                -	鋰電池X1<br>
+                -	充電器X1<br>
+
+            </p>
+        </div>
+        <div class="col-md-2">
+
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+
+    <div class="row featurette mb50" id="coorganize">
+        <div class="col-md-2">
+
+        </div>
+
+        <div class="pl100 col-md-9">
+            <h2 class="featurette-heading">合辦機構 <span class="text-muted">Coorganizers</span></h2>
+
+                <p class="lead">
+                    <b>MR Innovation</b><a target="_blank" href="http://www.mr-online.com.hk">(連結)</a><br>
+                    MR Innovation 創頡教育以推廣科技教育為目標，與不同機械合辦各類機械人及科技普及課程， 其中包括課程、工作坊、學習日、大型學界比賽等。同時亦提供機械人及科技教育套件。曾合作的單位包括數碼港、 香港專業教育學院(沙田分校)、香港教育學院賽馬會小學、東華三院學生輔導組、元朗惠州學校等。<br><br>
+                    <b>香港聯校電子電腦學會</b><a target="_blank" href="http://www.jsecs.org">(連結)</a><br>
+                    香港聯校電子及電腦學會於1979年成立，屬非牟利學生組織，宗旨是提升學生及公眾對電子及電腦的興趣。學會主要由中學生運作，亦曾舉辦不少活動予中學生參與。學會於過去二十多年都舉辦了「香港聯校電子及電腦展」，以不同主題致力推動資訊科技的應用予中小學學生，參觀人次估計高達50,000人。此外，學會亦曾舉辦「香港傑出資訊科技學校競賽」及「學界微電影大賽」等活動，讓中學生盡展所長。<br><br>
+                    <b>佐敦谷聖若瑟天主教小學</b><a target="_blank" href="http://www.jvsj.edu.hk/">(連結)</a><br>
+                    以基督的精神作為教育方針。致力提供多元化的優質教育，讓學生在溫暖和愉快的學習中發展個人潛能及持續的自學能力，建立自信與積極的人生觀，培養正確的公民意識，服務人群，回饋社會。<br>
+                </p>
+
+
+
+        </div>
+        <div class="col-md-1">
+
+        </div>
+
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette mb50" id="contact">
+        <div class="col-md-2">
+
+        </div>
+
+        <div class="pl100 col-md-8">
+            <h2 class="featurette-heading">聯絡我們 <span class="text-muted">Contact Us</span></h2>
+
+            <p class="lead">如有任何查詢，歡迎與我們聯絡。<br>
+                大會網頁：http://www.mr-online.com.hk/rcjhk2014<br>
+                電郵：<a href="mailto:info@mr-online.com.hk">info@mr-online.com.hk</a><br>
+                電話：5694-4686<br>
+                傳真：3460-5923<br>
+            </p>
+        </div>
+
+        <div class="col-md-2">
+
+        </div>
+
+    </div>
+
+    <hr class="thin-featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+    <div class="footer">
+        <!-- FOOTER -->
+        <footer>
+            <div class="thin-featurette-divider"></div>
+            <p class="pull-right"><a href="#">Back to top</a></p>
+
+            <p>&copy; 2014 MR Innovation Limited</p>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="myModalLabel">最新通告</h4>
+                </div>
+                <div class="modal-body">
+                    <b>1. 馬達驅動板更換事宜</b><br>
+                    由於近日有學校反映套件內的馬達驅動板輸出電流只有2A,一旦配上較為強勁的馬達時就可能會出現故障,因此,我們決定免費為所有學校更換大電流型號的馬達驅動板,以便同學於RCJ2014 比賽中爭取佳績。相關的軟件更新亦會盡快於網站發佈。
+                    <br><br>
+                    我們將會有專人致電各校的老師安排更換馬達驅動板事宜。
+                    <br><br>
+                    <b>2. 工作坊資源下載</b><br>
+                    所有工作坊的資料(包括組裝說明,接線圖解,編寫程式說明及範例程序)已經上載到本網站,各位老師同學可以於選單中點選"資源下源"瀏覽,或點撃此<a href="https://www.dropbox.com/sh/px9zdrkggvp6b45/cAlYna4zE_">連結</a>。
+                    <br><br><br>
+                    如有其他套件使用的問題,各位老師同學亦可以電郵info@mr-online.com.hk查詢。
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../dist/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+        $('#myModal').modal('show')
+    </script>
+</body>
+</html>

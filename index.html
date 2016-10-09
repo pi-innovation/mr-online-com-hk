@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width， initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="docs-assets/ico/favicon.ico">
+
+    <title>MR Innovation 創頡教育</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.css" rel="stylesheet">
+    <link href="docs-assets/css/main.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]>
+    <script src="docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <!--scrolling js-->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="docs-assets/js/jquery.localscroll-1.2.7-min.js" type="text/javascript"></script>
+    <script src="docs-assets/js/jquery.scrollTo-1.4.3.1-min.js" type="text/javascript"></script>
+
+
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+</head>
+<!-- NAVBAR
+================================================== -->
+<body>
+
+<!--scrolling & active button js-->
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#nav').localScroll({duration: 400});
+
+        $('.nav li a').on('click', function () {
+            $(this).parent().parent().find('.active').removeClass('active');
+            $(this).parent().addClass('active');
+        });
+    });
+
+
+</script>
+
+<div class="navbar-wrapper">
+    <div class="container">
+        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="#"><img class="menu_logo" src="docs-assets/images/menu_logo.png"></a>
+                </div>
+                <div class="navbar-collapse collapse" id="nav">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#onsite">到校課程</a></li>
+                        <li><a href="#coorganize">協辦課程</a></li>
+                        <li><a href="#instructor">導師資歷</a></li>
+                        <li><a href="#prize">學生佳績</a></li>
+                        <li><a href="#kits">機械人及科教套件</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">課程資料 <b
+                                    class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a target="_blank" href="docs-assets/docs/innoo_learning_path.pdf">Innoo 學習階梯系列</a></li>
+                                <li><a target="_blank" href="http://www.kge.hk/kgekids/course/kgeCourse_robot.asp">英皇教育合辦課程(機奧)</a></li>
+                                <li><a target="_blank" href="docs-assets/docs/ai_robot_course.pdf">AI智能機械人課程</a></li>
+                                <li><a target="_blank" href="docs-assets/docs/3dprinter.pdf">3D立體打印機課程</a></li>
+                                <li><a target="_blank" href="docs-assets/docs/kano.pdf">KANO OS遊戲編程課程</a></li>
+                                <li><a target="_blank" href="docs-assets/docs/ev3.pdf">Lego NXT/EV3機械人課程</a></li>
+                                <li><a target="_blank" href="docs-assets/docs/waterfarming.pdf">課室水耕栽培種植課程</a></li>
+                                <li><a target="_blank" href="docs-assets/docs/gopro.pdf">GoPro極限紀錄片拍攝課程</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#contact">聯絡我們</a></li>
+                        <li><a id="facebook-menu" href="http://www.facebook.com/MR.Innovation.HK"><img
+                                class="facebook-logo" src="docs-assets/images/facebook_logo.png"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<!-- Carousel
+================================================== -->
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+        <li data-target="#myCarousel" data-slide-to="5"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="item active" style="background:url('docs-assets/images/mrconf.png') center top no-repeat">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1></h1>
+                    <p></p>
+                    <p><a class="btn btn-lg btn-primary" target="_blank" href="mrconf/index.html" role="button">活動專頁</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="item" style="background:url('docs-assets/images/3dprinternew.png') center top no-repeat">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1></h1>
+                    <p></p>
+                    <p><a class="btn btn-lg btn-primary" target="_blank" href="docs-assets/docs/3dprinter.pdf" role="button" style="margin-left:240px; margin-bottom:70px;">課程專頁</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="item" style="background:url('docs-assets/images/Kano.png') center top no-repeat">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1></h1>
+                    <p></p>
+                    <p><a class="btn btn-lg btn-danger" target="_blank" href="docs-assets/docs/kano.pdf" role="button" style="margin-left:-180px; margin-bottom:145px;">課程專頁</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="item" style="background:url('docs-assets/images/Lego.png') center top no-repeat">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1></h1>
+                    <p></p>
+                    <p><a class="btn btn-lg btn-warning" target="_blank" href="docs-assets/docs/ev3.pdf" role="button" style="margin-left:775px; margin-bottom:105px;">課程專頁</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="item" style="background:url('docs-assets/images/waterfarm.png') center top no-repeat">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1></h1>
+                    <p></p>
+                    <p><a class="btn btn-lg btn-warning" target="_blank" href="docs-assets/docs/waterfarming.pdf" role="button" style="margin-left:770px; margin-bottom:180px;">課程專頁</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="item" style="background:url('docs-assets/images/gopro.png') center top no-repeat">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1></h1>
+                    <p></p>
+                    <p><a class="btn btn-lg btn-primary" target="_blank" href="docs-assets/docs/gopro.pdf" role="button" style="margin-left:-10px; margin-bottom:0px;">課程專頁</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span
+            class="glyphicon glyphicon-chevron-left"></span></a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next"><span
+            class="glyphicon glyphicon-chevron-right"></span></a>
+</div>
+<!-- /.carousel -->
+
+
+<!-- Marketing messaging and featurettes
+================================================== -->
+<!-- Wrap the rest of the page in another container to center all the content. -->
+
+<div class="container marketing">
+    <!-- START THE FEATURETTES -->
+
+    <div class="row featurette" id="onsite">
+        <div class="col-md-7 mt-content-image">
+            <h2 class="featurette-heading">到校課程 <span class="text-muted">On Site Courses / Workshop</span></h2>
+
+            <p class="lead">我們致力於學界推動機械人教育及創新科技教育，先後為不同機構、學校安排度身訂造的課程及工作坊，
+                讓更多的同學有機會接觸創新科技。MR Innovation 可以為學校設計不同的課程，其中包括科技體驗日、其他學習經歷、常規課程、比賽短期課程、優質教育基金計劃等。
+                我們教授的機械人套件包括 Lego NXT、Fischertechnik、中嗚、利基等等。</p>
+        </div>
+        <div class="col-md-5 mt-content-image">
+            <img class="featurette-image img-responsive mt-content-image" src="docs-assets/images/course.png"
+                 alt="Generic placeholder image">
+        </div>
+    </div>
+
+    <hr class="featurette-divider" id="coorganize">
+
+    <div class="row featurette">
+        <div class="col-md-5">
+            <img class="featurette-image img-responsive mt-content-image" src="docs-assets/images/coorganizer.png"
+                 alt="Generic placeholder image">
+        </div>
+        <div class="col-md-7">
+            <h2 class="featurette-heading">協辦課程 <span class="text-muted">Co-operated Courses</span>
+            </h2>
+
+            <p class="lead">除了與學校合作提供到校課程外，我們亦同時與社區中心、補習社、青少年活動中心等協辦課程，
+                其中香港著名的教育集團「英皇教育」更與我們簽訂合作協議，為中小學生提供多元化的機械人及科技普及課程。</p>
+        </div>
+    </div>
+
+    <hr class="featurette-divider" id="instructor">
+
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading">導師資歷 <span class="text-muted">Instructor Qualifications</span></h2>
+
+            <p class="lead">本公司的課程設計團隊均於機械人教育界有豐富的經驗，大部分導師均有超過5年的機械人相關經驗。
+                本公司導師資歷包括:機械人國際大賽大獎得主、前港隊代表學校導師、多項機械人賽事主裁判等等。另外，
+                本公司的導師曾獲邀擔任由香港專業教育學院舉辦的第一屆機械人科技會議及工作坊的講者，經驗及資歷獲業界認同。</p>
+        </div>
+        <div class="col-md-5">
+            <img class="featurette-image img-responsive mt-content-image" src="docs-assets/images/instructors.png"
+                 alt="Generic placeholder image">
+        </div>
+    </div>
+
+    <hr class="featurette-divider" id="prize">
+
+
+    <div class="row featurette">
+        <div class="col-md-5">
+            <img class="featurette-image img-responsive mt-content-image" src="docs-assets/images/prize.png"
+                 alt="Generic placeholder image">
+        </div>
+
+        <div class="col-md-7">
+            <h2 class="featurette-heading">學生佳績 <span class="text-muted">Students' Achievements</span></h2>
+
+            <p class="lead">本公司的學生於各大賽事中成績優異，最近佳績包括:<br>
+                2014 國際機械奧運會賽跑項目殿軍；<br>2014年香港機械人奧運會七個大獎；<br>2014年少年機械人世界盃香港選拔賽足球及舞蹈項目共九個大獎；<br>
+                包辦2013年創協盃創意科技機械人比賽所有港區代表名額、大中華區(中港澳台)初級組足球賽事殿軍、舞蹈賽全國季軍等多項大獎等。</p>
+        </div>
+
+    </div>
+
+    <hr class="featurette-divider" id="kits">
+
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading">機械人及科教套件 <span class="text-muted">Robotics & Science Kits</span></h2>
+
+            <p class="lead">我們一直希望為學生帶來價廉但質素有保証的機械人及科教套件，因此與RobotZone合作，
+                將台灣Innovati機械人系統引入香港，並同時配搭不同廠商的出品，研發出自家機械人套件，並於不同學校作教學及比賽用途。
+                同時，MR Innovation 亦正研發自家品牌的機械人套件，希望能成為屬於香港學界的機械人品牌。</p>
+        </div>
+        <div class="col-md-5">
+            <img class="featurette-image img-responsive" src="docs-assets/images/kits.png"
+                 alt="Generic placeholder image">
+        </div>
+    </div>
+
+    <hr class="featurette-divider" id="contact">
+
+    <div class="row featurette">
+        <div class="col-md-5">
+            <img class="featurette-image img-responsive" src="docs-assets/images/logo.png"
+                 alt="Generic placeholder image">
+        </div>
+
+        <div class="col-md-7">
+            <h2 class="featurette-heading">聯絡我們 <span class="text-muted">Contact Us</span></h2>
+
+            <p class="lead"><b>MR Innovation 創頡教育</b>以推廣科技教育為目標，與不同機械合辦各類機械人及科技普及課程，
+                其中包括課程、工作坊、學習日、大型學界比賽等。同時，我們亦提供機械人及科技教育套件。我們曾合作的單位包括數碼港、
+                香港專業教育學院(沙田分校)、香港教育學院賽馬會小學、東華三院學生輔導組、佐敦谷聖若瑟天主教小學、元朗惠州學校等。如有興趣合作，
+                請電郵到info@mr-online.com.hk，或致電5694-4686。</p>
+        </div>
+
+    </div>
+
+    <hr class="thin-featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+    <div class="footer">
+        <!-- FOOTER -->
+        <footer>
+            <div>
+                <table>
+                    <tr class="row">
+                        <td class="col-md-4">我們的客戶/合作伙伴</td>
+                    </tr>
+                    <tr class="row">
+                        <td class="col-md-4">數碼港</td>
+                        <td class="col-md-4">香港教育學院賽馬會小學</td>
+                        <td class="col-md-4">九龍灣佐敦谷聖約瑟天主教小學</td>
+                    </tr>
+                    <tr class="row">
+                        <td class="col-md-4">香港專業教育學院（沙田分校）</td>
+                        <td class="col-md-4">香港青少年機械人世界盃協會</td>
+                        <td class="col-md-4">創意科技教育協會</td>
+                    </tr>
+                    <tr class="row">
+                        <td class="col-md-4">英皇教育／英皇小博士</td>
+                        <td class="col-md-4">聖保祿中學</td>
+                        <td class="col-md-4">迦密柏雨中學</td>
+                    </tr>
+                    <tr class="row">
+                        <td class="col-md-4">東華三院學生輔導服務</td>
+                        <td class="col-md-4">大新人壽</td>
+                        <td class="col-md-4">香港電腦通訊節2013</td>
+                    </tr>
+                    <tr class="row">
+                        <td class="col-md-4">無綫電技術</td>
+                        <td class="col-md-4">澳門福建學校</td>
+                        <td class="col-md-4">香港普通話研習社科技創意小學</td>
+                    </tr>
+                    <tr class="row">
+                        <td class="col-md-4">創新科技署－創新科技嘉年華</td>
+                        <td class="col-md-4">東華三院冼次雲小學</td>
+                        <td class="col-md-4">李陞小學</td>
+                    </tr>
+                    <tr class="row">
+                        <td class="col-md-4">保良局百周年李兆忠紀念中學</td>
+                        <td class="col-md-4">香港中文大學校友會聯會張煊昌學校</td>
+                        <td class="col-md-4">圓玄學院妙法寺內明陳呂重德紀念中學</td>
+                    </tr>
+                    <tr class="row">
+                        <td class="col-md-4">天主教總堂區學校</td>
+                        <td class="col-md-4">聖類斯中學</td>
+                        <td class="col-md-4">天主教南華中學</td>
+                    </tr>
+                    <tr class="row">
+                        <td class="col-md-4">東華三院黃士心小學</td>
+                        <td class="col-md-4">順德聯誼總會梁潔華小學</td>
+                        <td class="col-md-4">東華三院姚達之紀念小學</td>
+                    </tr>
+                    <tr class="row">
+                        <td class="col-md-4">元朗惠州學校</td>
+                        <td class="col-md-4">大埔循道衛理小學</td>
+                        <td class="col-md-4">機械人創作室</td>
+                    </tr>
+                    <tr class="row">
+                        <td class="col-md-4">香港聯校電子及電腦學會</td>
+                        <td class="col-md-4">香港電腦教育學會</td>
+                        <td class="col-md-4">今日校園</td>
+                    </tr>
+                    <tr class="row">
+                        <td class="col-md-4">諾晴教育集團</td>
+                        <td class="col-md-4">好孩子教育中心</td>
+                        <td class="col-md-4">聰毅教育中心</td>
+                    </tr>
+
+                </table>
+            </div>
+            <div class="thin-featurette-divider"></div>
+            <p class="pull-right"><a href="#">Back to top</a></p>
+
+            <p>&copy; 2014 MR Innovation Limited</p>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title" id="myModalLabel">最新通告</h4>
+        </div>
+        <div class="modal-body">
+          <b>公司電話更改事宜</b><br><br>
+          由於行政原因，本公司電話已改為5694-4686，而電郵及傳真則不變。<br>
+          各位老師同學可以以下方法聯絡我們：<br>
+          電話：5694-4686<br>
+          傳真：3460-5923<br>
+          電郵：info@mr-online.com.hk<br>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="dist/js/bootstrap.min.js"></script>
+
+  <script type="text/javascript">
+    $('#myModal').modal('show')
+  </script>
+</body>
+</html>
