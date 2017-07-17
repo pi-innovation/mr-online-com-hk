@@ -11,7 +11,8 @@
     <title>Pi Innovation | STEM 教育服務</title>
 
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="docs-assets/css/main.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy this line! -->
@@ -39,14 +40,14 @@
 
 <!--scrolling & active button js-->
 <script type="text/javascript">
-    $(document).ready(function () {
-        $('#nav').localScroll({duration: 400});
+  $(document).ready(function () {
+    $('#nav').localScroll({duration: 400});
 
-        $('.nav li a').on('click', function () {
-            $(this).parent().parent().find('.active').removeClass('active');
-            $(this).parent().addClass('active');
-        });
+    $('.nav li a').on('click', function () {
+      $(this).parent().parent().find('.active').removeClass('active');
+      $(this).parent().addClass('active');
     });
+  });
 
 
 </script>
@@ -71,23 +72,25 @@
                         <li><a href="#instructor">導師資歷</a></li>
                         <li><a href="#prize">學生佳績</a></li>
                         <li><a href="#kits">機械人及科教套件</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">課程資料 <b
-                                    class="caret"></b></a>
-                            <ul class="dropdown-menu">
-                                <li><a target="_blank" href="docs-assets/docs/innoo_learning_path.pdf">Innoo 學習階梯系列</a></li>
-                                <li><a target="_blank" href="http://www.kge.hk/kgekids/course/kgeCourse_robot.asp">英皇教育合辦課程(機奧)</a></li>
-                                <li><a target="_blank" href="docs-assets/docs/ai_robot_course.pdf">AI智能機械人課程</a></li>
-                                <li><a target="_blank" href="docs-assets/docs/3dprinter.pdf">3D立體打印機課程</a></li>
-                                <li><a target="_blank" href="docs-assets/docs/kano.pdf">KANO OS遊戲編程課程</a></li>
-                                <li><a target="_blank" href="docs-assets/docs/ev3.pdf">Lego NXT/EV3機械人課程</a></li>
-                                <li><a target="_blank" href="docs-assets/docs/waterfarming.pdf">課室水耕栽培種植課程</a></li>
-                                <li><a target="_blank" href="docs-assets/docs/gopro.pdf">GoPro極限紀錄片拍攝課程</a></li>
-                            </ul>
-                        </li>
+                        <!--<li class="dropdown">-->
+                            <!--<a href="#" class="dropdown-toggle" data-toggle="dropdown">課程資料 <b-->
+                                    <!--class="caret"></b></a>-->
+                            <!--<ul class="dropdown-menu">-->
+                                <!--<li><a target="_blank" href="docs-assets/docs/innoo_learning_path.pdf">Innoo 學習階梯系列</a>-->
+                                <!--</li>-->
+                                <!--<li><a target="_blank" href="http://www.kge.hk/kgekids/course/kgeCourse_robot.asp">英皇教育合辦課程(機奧)</a>-->
+                                <!--</li>-->
+                                <!--<li><a target="_blank" href="docs-assets/docs/ai_robot_course.pdf">AI智能機械人課程</a></li>-->
+                                <!--<li><a target="_blank" href="docs-assets/docs/3dprinter.pdf">3D立體打印機課程</a></li>-->
+                                <!--<li><a target="_blank" href="docs-assets/docs/kano.pdf">KANO OS遊戲編程課程</a></li>-->
+                                <!--<li><a target="_blank" href="docs-assets/docs/ev3.pdf">Lego NXT/EV3機械人課程</a></li>-->
+                                <!--<li><a target="_blank" href="docs-assets/docs/waterfarming.pdf">課室水耕栽培種植課程</a></li>-->
+                                <!--<li><a target="_blank" href="docs-assets/docs/gopro.pdf">GoPro極限紀錄片拍攝課程</a></li>-->
+                            <!--</ul>-->
+                        <!--</li>-->
                         <li><a href="#contact">聯絡我們</a></li>
-                        <li><a id="facebook-menu" href="http://www.facebook.com/MR.Innovation.HK"><img
-                                class="facebook-logo" src="docs-assets/images/facebook_logo.png"></a></li>
+                        <!--<li><a id="facebook-menu" href="http://www.facebook.com/MR.Innovation.HK"><img-->
+                                <!--class="facebook-logo" src="docs-assets/images/facebook_logo.png"></a></li>-->
                     </ul>
                 </div>
             </div>
@@ -97,85 +100,44 @@
 </div>
 
 
-<!-- Carousel
-================================================== -->
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
+<div id="carousel-example" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-        <li data-target="#myCarousel" data-slide-to="3"></li>
-        <li data-target="#myCarousel" data-slide-to="4"></li>
-        <li data-target="#myCarousel" data-slide-to="5"></li>
+        <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example" data-slide-to="1"></li>
+        <li data-target="#carousel-example" data-slide-to="2"></li>
     </ol>
+
     <div class="carousel-inner">
-        <div class="item active" style="background:url('docs-assets/images/mrconf.png') center top no-repeat">
-            <div class="container">
-                <div class="carousel-caption">
-                    <h1></h1>
-                    <p></p>
-                    <p><a class="btn btn-lg btn-primary" target="_blank" href="mrconf/index.html" role="button">活動專頁</a></p>
-                </div>
+        <div class="item active">
+            <a href="#"><img src="docs-assets/images/piInnovation.png" /></a>
+            <div class="carousel-caption">
+            </div>
+        </div>
+        <div class="item">
+            <a href="#"><img src="docs-assets/images/schoolProject.png" /></a>
+            <div class="carousel-caption">
+                <p><a class="btn btn-lg btn-primary" href="mailto:info@pi-innovation.com.hk"
+                      role="button" style="margin-bottom:30px;">聯絡我們</a></p>
+            </div>
+        </div>
+        <div class="item">
+            <a href="#"><img src="docs-assets/images/stemnetwork.png" /></a>
+
+            <div class="carousel-caption">
+                <p><a class="btn btn-lg btn-primary" target="_blank" href="docs-assets/docs/3dprinter.pdf"
+                      role="button" style="margin-bottom:30px;">加盟專頁</a></p>
             </div>
         </div>
 
-        <div class="item" style="background:url('docs-assets/images/3dprinternew.png') center top no-repeat">
-            <div class="container">
-                <div class="carousel-caption">
-                    <h1></h1>
-                    <p></p>
-                    <p><a class="btn btn-lg btn-primary" target="_blank" href="docs-assets/docs/3dprinter.pdf" role="button" style="margin-left:240px; margin-bottom:70px;">課程專頁</a></p>
-                </div>
-            </div>
-        </div>
-
-        <div class="item" style="background:url('docs-assets/images/Kano.png') center top no-repeat">
-            <div class="container">
-                <div class="carousel-caption">
-                    <h1></h1>
-                    <p></p>
-                    <p><a class="btn btn-lg btn-danger" target="_blank" href="docs-assets/docs/kano.pdf" role="button" style="margin-left:-180px; margin-bottom:145px;">課程專頁</a></p>
-                </div>
-            </div>
-        </div>
-
-        <div class="item" style="background:url('docs-assets/images/Lego.png') center top no-repeat">
-            <div class="container">
-                <div class="carousel-caption">
-                    <h1></h1>
-                    <p></p>
-                    <p><a class="btn btn-lg btn-warning" target="_blank" href="docs-assets/docs/ev3.pdf" role="button" style="margin-left:775px; margin-bottom:105px;">課程專頁</a></p>
-                </div>
-            </div>
-        </div>
-
-        <div class="item" style="background:url('docs-assets/images/waterfarm.png') center top no-repeat">
-            <div class="container">
-                <div class="carousel-caption">
-                    <h1></h1>
-                    <p></p>
-                    <p><a class="btn btn-lg btn-warning" target="_blank" href="docs-assets/docs/waterfarming.pdf" role="button" style="margin-left:770px; margin-bottom:180px;">課程專頁</a></p>
-                </div>
-            </div>
-        </div>
-
-        <div class="item" style="background:url('docs-assets/images/gopro.png') center top no-repeat">
-            <div class="container">
-                <div class="carousel-caption">
-                    <h1></h1>
-                    <p></p>
-                    <p><a class="btn btn-lg btn-primary" target="_blank" href="docs-assets/docs/gopro.pdf" role="button" style="margin-left:-10px; margin-bottom:0px;">課程專頁</a></p>
-                </div>
-            </div>
-        </div>
     </div>
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span
-            class="glyphicon glyphicon-chevron-left"></span></a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next"><span
-            class="glyphicon glyphicon-chevron-right"></span></a>
+
+    <a class="left carousel-control" href="#carousel-example" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="right carousel-control" href="#carousel-example" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
 </div>
-<!-- /.carousel -->
 
 
 <!-- Marketing messaging and featurettes
@@ -189,9 +151,9 @@
         <div class="col-md-7 mt-content-image">
             <h2 class="featurette-heading">到校課程 <span class="text-muted">On Site Courses / Workshop</span></h2>
 
-            <p class="lead">我們致力於學界推動機械人教育及創新科技教育，先後為不同機構、學校安排度身訂造的課程及工作坊，
-                讓更多的同學有機會接觸創新科技。MR Innovation 可以為學校設計不同的課程，其中包括科技體驗日、其他學習經歷、常規課程、比賽短期課程、優質教育基金計劃等。
-                我們教授的機械人套件包括 Lego NXT、Fischertechnik、中嗚、利基等等。</p>
+            <p class="lead">我們團隊致力於學界推動STEM及創新教育，先後為不同機構、學校安排度身訂造的課程及工作坊，
+                讓更多的同學有機會接觸創新科技。MR Innovation 可以為學校設計不同的課程，其中包括政府STEM津貼、優質教育基金計劃、科技體驗日、其他學習經歷（OLE)、常規課程、比賽短期課程等。
+                我們教授的機械人套件包括 LEGO WeDo/NXT/EV3, mBot, Dash and Dot, Fischertechnik等等。</p>
         </div>
         <div class="col-md-5 mt-content-image">
             <img class="featurette-image img-responsive mt-content-image" src="docs-assets/images/course.png"
@@ -210,8 +172,8 @@
             <h2 class="featurette-heading">加盟／協辦課程 <span class="text-muted">Co-operated Courses</span>
             </h2>
 
-            <p class="lead">除了與學校合作提供到校課程外，我們亦同時與社區中心、補習社、青少年活動中心等協辦課程，
-                其中香港著名的教育集團「英皇教育」更與我們簽訂合作協議，為中小學生提供多元化的機械人及科技普及課程。</p>
+            <p class="lead">除了與學校合作提供到校課程外，我們正積極拓展加盟及協辦課程網絡，與各區的補習社、教育中心、社區中心等協辦各類STEM及創新思維課程，
+                讓更多的同學能夠有機會接觸創科教育，其中香港著名的教育集團「英皇教育」更與我們簽訂合作協議，為中小學生提供多元化的STEM及創意課程。</p>
         </div>
     </div>
 
@@ -221,9 +183,15 @@
         <div class="col-md-7">
             <h2 class="featurette-heading">導師資歷 <span class="text-muted">Instructor Qualifications</span></h2>
 
-            <p class="lead">本公司的課程設計團隊均於機械人教育界有豐富的經驗，大部分導師均有超過5年的機械人相關經驗。
-                本公司導師資歷包括:機械人國際大賽大獎得主、前港隊代表學校導師、多項機械人賽事主裁判等等。另外，
-                本公司的導師曾獲邀擔任由香港專業教育學院舉辦的第一屆機械人科技會議及工作坊的講者，經驗及資歷獲業界認同。</p>
+            <p class="lead">我們的導師團隊於STEM教育界均有豐富的經驗，所有團隊成員於業界有超過五年的經驗，團隊的負責人更於STEM業界有起過十年的經驗。以下為部份團隊的資歷：
+                <ul class="lead-list">
+                    <li>機械人國際大賽得主</li>
+                    <li>多次代表香港出戰各項世界級賽事</li>
+                    <li>機械人大賽港隊代表學校導師</li>
+                    <li>多項本地機械人賽事主裁判</li>
+                    <li>香港專業教育學院主辦機械人科技會議及工作坊的講者</li>
+                </ul>
+            </p>
         </div>
         <div class="col-md-5">
             <img class="featurette-image img-responsive mt-content-image" src="docs-assets/images/instructors.png"
@@ -243,9 +211,14 @@
         <div class="col-md-7">
             <h2 class="featurette-heading">學生佳績 <span class="text-muted">Students' Achievements</span></h2>
 
-            <p class="lead">本公司的學生於各大賽事中成績優異，最近佳績包括:<br>
-                2014 國際機械奧運會賽跑項目殿軍；<br>2014年香港機械人奧運會七個大獎；<br>2014年少年機械人世界盃香港選拔賽足球及舞蹈項目共九個大獎；<br>
-                包辦2013年創協盃創意科技機械人比賽所有港區代表名額、大中華區(中港澳台)初級組足球賽事殿軍、舞蹈賽全國季軍等多項大獎等。</p>
+            <p class="lead">我們教授的學生於各大STEM賽事中，成績優異，曾獲佳績包括：
+                <ul class="lead-list">
+                    <li>包辦青少年機械人世界盃足球項目所有獎項</li>
+                    <li>創協盃創意科技機械人比賽所有港區代表名額</li>
+                    <li>創協盃創意科技機械人比賽機械人舞蹈賽全國季軍</li>
+                    <li>創協盃大中華區(中港澳台)初級組足球賽事殿軍</li>
+                    <li>機械奧運會香港代表隊分項冠軍，及香港代表隊資格</li>
+                </ul>
         </div>
 
     </div>
@@ -256,9 +229,8 @@
         <div class="col-md-7">
             <h2 class="featurette-heading">機械人及科教套件 <span class="text-muted">Robotics & Science Kits</span></h2>
 
-            <p class="lead">我們一直希望為學生帶來價廉但質素有保証的機械人及科教套件，因此與RobotZone合作，
-                將台灣Innovati機械人系統引入香港，並同時配搭不同廠商的出品，研發出自家機械人套件，並於不同學校作教學及比賽用途。
-                同時，MR Innovation 亦正研發自家品牌的機械人套件，希望能成為屬於香港學界的機械人品牌。</p>
+            <p class="lead">我們一直希望為學生帶來價廉但質素有保証的STEM及科教套件，因此團隊一直為本港市場開發各類教學用電子器材及套件，
+                並於不同學校作教學及比賽用途。我們亦會按機構及學校的需要，度身訂造各類的比賽或教學套件，過往團隊曾為數碼港的機械人足球賽培育計劃開發教材，以及為國際機械人賽事設計示範用機械人。</p>
         </div>
         <div class="col-md-5">
             <img class="featurette-image img-responsive" src="docs-assets/images/kits.png"
@@ -277,8 +249,8 @@
         <div class="col-md-7">
             <h2 class="featurette-heading">聯絡我們 <span class="text-muted">Contact Us</span></h2>
 
-            <p class="lead"><b>Pi Innovation</b>以推廣科技教育為目標，與不同機械合辦各類機械人及科技普及課程，
-                其中包括課程、工作坊、學習日、大型學界比賽等。同時，我們亦提供機械人及科技教育套件。團隊曾合作的單位包括數碼港、
+            <p class="lead"><b>Pi Innovation</b>以推廣科技教育為目標，與不同機構合辦各類STEM及創意課程，
+                其中包括課程、工作坊、學習日、大型學界比賽等。同時，我們亦提供STEM及科技教育套件。團隊曾合作的單位包括數碼港、
                 香港專業教育學院(沙田分校)、民政事務處、富士施樂、東華三院學生輔導組、香港教育大學賽馬會小學、佐敦谷聖若瑟天主教小學等。如有興趣合作，
                 請電郵到info@pi-innovation.com.hk，或致電5694-4686。</p>
         </div>
@@ -373,34 +345,36 @@
     </div>
     <!-- /.container -->
 
-  <!-- Modal -->
-  <!--<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">-->
+    <!-- Modal -->
+    <!--<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">-->
     <!--<div class="modal-dialog">-->
-      <!--<div class="modal-content">-->
-        <!--<div class="modal-header">-->
-          <!--<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>-->
-          <!--<h4 class="modal-title" id="myModalLabel">最新通告</h4>-->
-        <!--</div>-->
-        <!--<div class="modal-body">-->
-          <!--<b>公司電話更改事宜</b><br><br>-->
-          <!--由於行政原因，本公司電話已改為5694-4686，而電郵及傳真則不變。<br>-->
-          <!--各位老師同學可以以下方法聯絡我們：<br>-->
-          <!--電話：5694-4686<br>-->
-          <!--傳真：3460-5923<br>-->
-          <!--電郵：info@mr-online.com.hk<br>-->
-        <!--</div>-->
-      <!--</div>-->
+    <!--<div class="modal-content">-->
+    <!--<div class="modal-header">-->
+    <!--<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>-->
+    <!--<h4 class="modal-title" id="myModalLabel">最新通告</h4>-->
     <!--</div>-->
-  <!--</div>-->
+    <!--<div class="modal-body">-->
+    <!--<b>公司電話更改事宜</b><br><br>-->
+    <!--由於行政原因，本公司電話已改為5694-4686，而電郵及傳真則不變。<br>-->
+    <!--各位老師同學可以以下方法聯絡我們：<br>-->
+    <!--電話：5694-4686<br>-->
+    <!--傳真：3460-5923<br>-->
+    <!--電郵：info@mr-online.com.hk<br>-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--</div>-->
 
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
 
-  <!--<script type="text/javascript">-->
+    <!--<script type="text/javascript">-->
     <!--$('#myModal').modal('show')-->
-  <!--</script>-->
+    <!--</script>-->
 </body>
 </html>

@@ -86,6 +86,12 @@
     font-weight: bold;
 }
 
+.lead-list{
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
 /*#myCarousel {*/
 /*left: 50%;*/
 /*right: 50%;*/
